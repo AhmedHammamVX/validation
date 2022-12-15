@@ -1,0 +1,95 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    height: 100%;
+    background: rgb(253,236,235);
+}
+
+
+body
+{
+    min-height: 100% !important;
+    margin: 0 !important;
+    background: rgb(253,236,235);
+    background: linear-gradient(45deg, rgba(253,236,235,1) 0%, rgba(223,196,212,1) 49%, rgba(253,236,235,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.main
+{
+    background-color:rgba(245, 247, 255, 0.85);
+    border-radius: 5px;
+    width: 80%;
+}
+
+.main .row > div
+{
+    padding: 30px;
+}
+
+.main .row div:last-of-type h1
+{
+    font-size: 36px;
+}
+
+.main .row > div:last-of-type > p
+{
+    font-size: 20px;
+}
+
+.main .row div:last-of-type button
+{
+    background: linear-gradient(113.87deg, #2663DF 14.81%, #758FF0 88.76%);
+    color: white;
+    padding: 10px 12px;
+}
+
+.main .row div:last-of-type button:hover
+{
+    box-shadow: 0px 6px 18px #9CADF2;
+}
+
+form .input-item
+{
+    padding: 12px !important;
+    background-color: white;
+    border-radius: 7px;
+}
+
+form input , form .input-item span
+{
+    border: 0 !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    padding: 0px 10px !important;
+    font-size: 18px !important;
+}
+
+form .input-item span 
+{
+    border-right: 1px solid #DBE3FF !important;
+    color: #9CADF2 !important;
+}
+
+form input:focus
+{
+    box-shadow: none !important;
+}
+
+.feedBack
+{
+    display: block !important;
+    padding:0px 4px;
+    text-align: left;
+    margin-top: 0.25rem;
+    color: #dc3545;
+}
+
+
+
